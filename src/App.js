@@ -41,8 +41,8 @@ const GameChallenge = {
 
 
 const App = () => {
-  // const [playerPosition, setPlayerPosition] = useState(0);
-  const [playerPosition, setPlayerPosition] = useState(GameChallenge[1].position);
+  const [playerPosition, setPlayerPosition] = useState(0);
+  // const [playerPosition, setPlayerPosition] = useState(GameChallenge[1].position);
   const [currentChallenge, setCurrentChallenge] = useState(1);
   const [holdGame, setHoldGame] = useState(false);
 
