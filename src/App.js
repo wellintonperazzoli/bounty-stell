@@ -127,7 +127,7 @@ const App = () => {
         {Array.from({ length: fieldSize }).map((_, i) => (
           <Field key={i} active={playerPosition === i} onClick={() => setPosition(i)} cellSize={cellSize}>
             {/* {i === GameChallenge[currentChallenge].position ? "🎯" : i === playerPosition ? "👾" : ""} */}
-            {i === playerPosition ? "👾" : i+1}
+            {i === playerPosition ? "👾" : ""}
           </Field>
         ))}
       </div>
